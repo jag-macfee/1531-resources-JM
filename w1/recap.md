@@ -53,7 +53,7 @@ Feel free to set up however you like (using the tutorials on WebCMS), however I 
 
 <br>
 
-![Node.js Logo](image.png)
+![Node.js Logo](static/node-logo.png)
 
 <br>
 
