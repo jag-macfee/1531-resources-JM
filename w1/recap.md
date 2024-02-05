@@ -42,12 +42,10 @@ If this is your first time learning JS, not to worry, we'll be covering the lang
 
 <h3 id="getting-started"> Getting started </h3>
 
-<br>
-
 To run local JavaScript programs, you will need to have **Node.js** installed.
 But what is 'Node.js'?
 
-To put it simply (or not), **Node.js** is what we call a **runtime environment**. Essentially, it's what allows JavaScript to run outside of your browser (we will elaborate on this much later so don't worry about it :))
+To put it simply (or not), **Node.js** is what we call a **_runtime environment_**. Essentially, it's what allows JavaScript to run outside of your browser (we will elaborate on this much later so don't worry about it :))
 
 Feel free to set up however you like (using the tutorials on WebCMS), however I would definitely suggest that you work on everything **locally**. It is a bit more complicated at first but trust me it will save a lot of headache in the long run.
 
@@ -80,7 +78,7 @@ But what do those terms actually mean?
 
 ```C
 // Sorting an Array in C - LOW LEVEL
-// Credit: https://www.geeksforgeeks.org/bubble-sort/
+// src: https://www.geeksforgeeks.org/bubble-sort/
 
 void swap(int* xp, int* yp) {
     int temp = *xp;
@@ -119,7 +117,7 @@ const arr = [64, 34, 25, 12, 22, 11, 90];
 arr.sort((a, b) => a - b);
 ```
 
-(Advanced) As it turns out, these two are actually _not_ the same. For those familiar with Big O notation (in 2521), JS sorts with an **O(nlogn)** algorithm whereas the algorithm in the C snippet is **O(n^2)**.
+(Advanced) As it turns out, these two are actually _not_ the same. For those familiar with Big O notation (in 2521), JS sorts with an **O(nlogn)** algorithm whereas the algorithm in the C snippet (bubblesort) is **O(n^2)**.
 
 Moving on...
 
