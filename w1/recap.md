@@ -24,6 +24,14 @@
     </li>
     <li>
         <a href="#intro-to-git"> Introduction to Git </a>
+        <ol> 
+        <li> 
+            <a href="#what-is-git"> What is git? </a>
+        </li>
+        <li>
+            <a href="#basic-commands"> Basic git commands </a>
+        </li>
+        </ol>
     </li>
 </ol>
 
