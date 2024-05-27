@@ -362,7 +362,7 @@ To solve this, JS has two types of **for loops** which we can use to make things
 -   **'For-of'**: For-of loops are probably the loops you will use the most. By using the keyword `of` when referring to a `thing of array`, JS automatically loops through every single element in an array.
     ```javascript
     const arr = [1, 2, 3, 4, 5, 6];
-    for (const number of array) {
+    for (const number of arr) {
         console.log(number);
     }
     // prints 1,2,3,4,5,6 on each new line
